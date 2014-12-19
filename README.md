@@ -7,4 +7,4 @@ The script compute_kappa.m is included with the journal article entitled "Refine
 
 An example call to compute_kappa is as follows:
 
-w = compute_kappa(1,5000,500,0.02,'boxcar',0.1,inf,'asym',1,0.51,0.02,0.04,3,0,50,0.001,0.005,0.1,'uniform',0);
+w = compute_kappa(0,5000,500,0.02,'boxcar',0.1,inf,'asym',1,0.51,0.02,0.04,3,0,50,0.001,0.005,0.1,'uniform',0);
