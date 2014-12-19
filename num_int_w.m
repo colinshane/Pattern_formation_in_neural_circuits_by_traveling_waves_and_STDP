@@ -1,6 +1,6 @@
-function w = compute_kappa(lr_only,nit,N,sres,btype,b_dur,iwi,lr_type,amp_pot,amp_dep,tau_pot,tau_dep,v,vsd,fr,tau_r,tau_d,zscale,w_type,sd)
+function w = num_int_w(lr_only,nit,N,sres,btype,b_dur,iwi,lr_type,amp_pot,amp_dep,tau_pot,tau_dep,v,vsd,fr,tau_r,tau_d,zscale,w_type,sd)
 %
-% [w1 wo] = conv_w(lr_only,nit,N,OO,olag,L,llag,btype,b_dur,iwi,lr_type,amp_pot,amp_dep,tau_pot,tau_dep,v,vsd,fr,tau_r,tau_d,zscale,w_type,sd)
+% [w1 wo] = num_int_w(lr_only,nit,N,OO,olag,L,llag,btype,b_dur,iwi,lr_type,amp_pot,amp_dep,tau_pot,tau_dep,v,vsd,fr,tau_r,tau_d,zscale,w_type,sd)
 %
 % Inputs:
 % lr_only - 1: return STDP functions and FTs only; 0: run numerical integration
